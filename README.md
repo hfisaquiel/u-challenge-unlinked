@@ -21,13 +21,21 @@ npm install react-scripts@latest
 ## Como Instalar este projeto
 
 Primeiro baixe o projeto
+
 ```bash
 git clone git@github.com:hfisaquiel/u-challenge.git
 ```
 
 Então, instale utilizando o NPM (ou YARN)
+
 ```bash
 npm install
+```
+
+Duplique o arquivo `.env.example` e o nomeie para `.env`, pois é necessário para ter informaçâo da API
+
+```bash
+cp .env.example .env
 ```
 
 ## Comandos de execução
