@@ -11,7 +11,7 @@ const Table = ({ fields, items }: TableProps) => {
         <Containers.TableHeader fields={fields} />
       </thead>
       <tbody>
-        <Containers.TableRows fields={fields} items={items} />
+        <Containers.TableRow fields={fields} items={items} />
       </tbody>
     </table>
   );
